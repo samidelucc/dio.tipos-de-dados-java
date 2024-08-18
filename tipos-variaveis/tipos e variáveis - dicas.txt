@@ -1,0 +1,64 @@
+AULA 1
+
+objetivo: explorar os tipos de dados numéricos, inteiros, decimais, lógicos, caracteres, objetos e aplicabilidades.
+
+diferenças entre definição de variáveis e constantes.
+
+x__________x
+
+AULA 3
+
+java possui 8 tipos primitivos
+
+• int, byte, short, long, float, double, boolean e char
+
+esses tipos são considerados objetos, e portanto, representam valores brutos.
+
+Eles são armazenados diretamente na pilha da memória (Memory stack)
+
+tipo | memoria |
+| byte | 1 byte |
+| short | 2 bytes |
+| int | 4 bytes |
+| long | 8 bytes |
+| float | 4 bytes |
+| double | 8 bytes |
+| boolean | 1 byte |
+| char | 2 bytes |
+
+qual tipo de dado eu usaria para determinar a idade de uma pessoa ou o salário de um funcionário
+
+• poderia usar un int para idade e um double (float) para salário
+
+variável é uma identificação de um espaço em memória utilizado pelo nosso programa. Tota variável é composta por 
+
+Tipo de Dados + identificação + valor atribuído
+
+A estrutura padrão é sempre:
+
+<tipo> <nomeVariavel> <atribuicaoDeValorOpcional>
+
+ex
+
+int idade; tipo inteiro, nome "idade", sem valor.
+
+double salarioMinimo =2.500; errado, o "ponto" não indica milhar, indica apenas centavos
+certo = 2500.33
+
+tipo float precisa de um F no final, podendo ser maiúsculo ou minúsculo.
+e o tipo long precisa de um L.
+
+Java é fortemente tipado
+x__________x
+
+AULA 4
+
+um numero pode começar com um valor e ao longo do programa receber outro.
+
+Variáveis X constantes
+
+constantes são valores armazenados em memoria que depois de declarados, não podem ser modificados.
+em java, são representados pela palavra reservada FINAL, seguida do tipo.
+Constantes também são caracterizadas com a atribuição em CAIXA ALTA.
+
+x__________x
